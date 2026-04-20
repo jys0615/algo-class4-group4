@@ -1,47 +1,6 @@
-/.metadata/
-# === Java & Build Outputs ===
-
-*Test.java
-bin/
-out/
-target/
-build/
-.gradle/
-*.class
-*.log
-*.tmp
-
-# === IntelliJ IDEA ===
-
-.idea/
-*.iml
-*.iws
-*.ipr
-cmake-build-*/
-
-# === VS Code ===
-
-.vscode/
-
-# === OS & System ===
-
-.DS_Store
-Thumbs.db
-desktop.ini
-
-# === Build Tools ===
-
-.mvn/
-
-# === Environment ===
-
-.env
-*.env
-
 # =====================
 # Python
 # =====================
-*Test.py
 __pycache__/
 *.py[cod]
 *$py.class
