@@ -42,7 +42,7 @@ algo-class4-group4/
 
 1. `main` 브랜치에서 **본인 이름으로 브랜치** 생성
    ```bash
-   git checkout -b Hyunwoo
+   git checkout -b 정윤서
    ```
 2. 본인 폴더 안에 풀이 파일 추가
 3. 커밋 & 푸시 후 **`main`으로 PR** 생성
