@@ -1,4 +1,4 @@
-package Uhjin.boj;
+package Uhjin.BOJ;
 
 import java.io.*;
 import java.util.*;
