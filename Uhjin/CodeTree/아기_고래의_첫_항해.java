@@ -8,15 +8,15 @@ public class 아기_고래의_첫_항해 {
     public static int[][] map;
     public static boolean[][] visited;
 
-    public static int[] dx = { 0, 0, 0, -1, 1 };
-    public static int[] dy = { 0, -1, 1, 0, 0 };
+    public static int[] dx = { 0, 0, 0, -1, 1 }; // 왼쪽, 오른쪽
+    public static int[] dy = { 0, -1, 1, 0, 0 }; // 위, 아래
 
     public static int[][] changeDir = {
             { 0, 0, 0, 0, 0 },
-            { 0, 1, 3, 4, 2 },
-            { 0, 2, 4, 3, 1 },
-            { 0, 3, 2, 1, 4 },
-            { 0, 4, 1, 2, 3 },
+            { 0, 1, 3, 4, 2 }, // dir1 (위)
+            { 0, 2, 4, 3, 1 }, // dir2 (아래)
+            { 0, 3, 2, 1, 4 }, // dir3 (왼쪽)
+            { 0, 4, 1, 2, 3 }, // dir4 (오른쪽)
     };
 
     static class Node {
