@@ -5,7 +5,7 @@ public class P_12979 {
         int answer = 0;
         int curr = 1;
         int range = 2 * w + 1;
-        
+
         for (int station : stations) {
             if (station - w > curr)
                 answer += (station - curr - w - 1) / range + 1;
