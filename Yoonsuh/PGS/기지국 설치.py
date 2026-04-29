@@ -1,6 +1,6 @@
 from math import ceil
 
-def solution(n, stations, w):
+def solution(n, stations, w): # 
     cnt = 0
     # 가상 경계: 왼쪽 끝(0), 오른쪽 끝(n+1) 추가
     # stations는 1-indexed 그대로 사용
@@ -26,7 +26,7 @@ def solution(n, stations, w):
 ### 시간 초과 발생 ###
 # from math import ceil
 # def solution(n, stations, w):
-#     result = [0]*n
+#     result = [0]*n 
 #     for item in stations:
 #         result[item-1] = 1
 #         for i in range(1, w+1):
