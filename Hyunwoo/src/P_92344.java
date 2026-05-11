@@ -9,7 +9,7 @@ public class P_92344 {
         int M = board[0].length;
         int[][] degreeBoard = new int[N][M];
         int answer = 0;
-ㄱ
+
         for (int tc = 0; tc < skill.length; tc++) {
             int type = skill[tc][0] == 1 ? -1 : 1;  // 공격타입이면 degree에 -1 곱해서 더하기
             int r1 = skill[tc][1];
