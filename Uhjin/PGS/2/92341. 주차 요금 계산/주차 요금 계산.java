@@ -5,7 +5,7 @@ class Solution {
     public static Map<String, Integer> inTimeMap = new HashMap<>(); // 입차시간 저장
     
     public int[] solution(int[] fees, String[] records) {
-        int maxTime = getMinutes("23:59"); // 1439
+        int maxTime = getMinutes("23:59"); // 시간을 분으로 바꾸면 1439분
         
         for(String s : records) {
             String[] splitRecords = s.split(" ");
