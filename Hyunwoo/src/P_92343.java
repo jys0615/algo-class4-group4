@@ -1,6 +1,5 @@
-package Lv3;
-
-import java.util.*;
+import java.util.ArrayList;
+import java.util.List;
 
 public class P_92343 {
     List<List<Integer>> adj = new ArrayList<>();
