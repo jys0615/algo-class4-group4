@@ -14,7 +14,7 @@ def solution(n, k, cmds):
             r = stack.pop() # 삭제 저장소에서 한 개를 뺌. 
             nxt[prev[r]] = r # 연결 복원
             prev[nxt[r]] = r
-        else: # U 혹은 D
+        else: # U 혹은 D 중 하나입니다. 
             c, X = cmd.split()
             if c == 'U':
                 for _ in range(int(X)):
